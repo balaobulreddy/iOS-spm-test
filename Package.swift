@@ -25,7 +25,7 @@
 import PackageDescription
 
 let version = "3.17.0"
-let base = "https://github.com/balaobulreddy/iOS-spm-test/releases/download/\(version)"
+let base = "https://github.com/webex/webex-ios-sdk/releases/download/\(version)"
 
 let package = Package(
     name: "WebexSDK",
@@ -81,70 +81,70 @@ let package = Package(
         .binaryTarget(
             name: "util_ios_Shared",
             url: "\(base)/WebexSDK-Shared-util_ios.xcframework.zip",
-            checksum: "c7b8fc3a5f4d0dd0e489bf1db14aea56b734680ca0c8c97e6a8daed69f3bad73"
+            checksum: "77b652c13a4a5714bafb51e44501fc0d18b9a32ec8c5e99f1add3ec8563554f8"
         ),
         .binaryTarget(
             name: "wbxaecodec_Shared",
             url: "\(base)/WebexSDK-Shared-wbxaecodec.xcframework.zip",
-            checksum: "fe23d02cf986d1f6b30f765de56a486986b32d5c363dd39d5b80a3832d86393a"
+            checksum: "f2e54272b52dc9f5d834cf00ab485bcc174174cb9c2e130b8c33ce4de6559d18"
         ),
         .binaryTarget(
             name: "wbxaudioengine_Shared",
             url: "\(base)/WebexSDK-Shared-wbxaudioengine.xcframework.zip",
-            checksum: "9b260113e5285da4e0dff39ecaf1d9e8966ee7a9df41a027afbf60f7d4f071f4"
+            checksum: "39f230f7112907805ea69f2889fd295bea0433c359c72621d4a0e704e805ccc5"
         ),
         .binaryTarget(
             name: "mediastores_ios_Shared",
             url: "\(base)/WebexSDK-Shared-mediastores_ios.xcframework.zip",
-            checksum: "997ac3e617646164b866a0f3e2754a1f3c2eeac70791d84abb9b1295fd0a9787"
+            checksum: "da4679cb030af023cdba7476d2eba9f0a03e86f39f967b0f250b9efd6010e182"
         ),
 
         // ---------- Full ----------
         .binaryTarget(
             name: "WebexSDK_Full",
             url: "\(base)/WebexSDK-Full-WebexSDK.xcframework.zip",
-            checksum: "674e4b32061227d975f86221667523dd81cc63035c995192eacf7d337012472c"
+            checksum: "129470a0024ace1f78d0bf96641b68ffadf3f0fb4fd3db8473494629354761ec"
         ),
         .binaryTarget(
             name: "UCFBridge_Full",
             url: "\(base)/WebexSDK-Full-UCFBridge.xcframework.zip",
-            checksum: "3b00900a102d58bc69f53d4bb42cbca704102fe3c44310045cdf5b1b0b0c6367"
+            checksum: "ff92f3463abc866836803f7861df0594145245f5ecd8091d3b53c5ede3478c38"
         ),
 
         // ---------- Meeting ----------
         .binaryTarget(
             name: "WebexSDK_Meeting",
             url: "\(base)/WebexSDK-Meeting-WebexSDK.xcframework.zip",
-            checksum: "544a5ccc278511e72484e8c1a1156855940fb4b4b64838cc62978cdc1707d0cf"
+            checksum: "d1758bf1d8ae07d599789a7d523fa2f2a8d2c415e16ee95bae40da429f03e062"
         ),
         .binaryTarget(
             name: "UCFBridge_Meeting",
             url: "\(base)/WebexSDK-Meeting-UCFBridge.xcframework.zip",
-            checksum: "7f61f50709dfcca9310382206e21e0037a74926af8686c5322b1c3ff22b25388"
+            checksum: "9a24a99417b37274f621fa57d34794f8eeb7b53d853918686a245a1524c1b2c1"
         ),
 
         // ---------- Wxc ----------
         .binaryTarget(
             name: "WebexSDK_Wxc",
             url: "\(base)/WebexSDK-Wxc-WebexSDK.xcframework.zip",
-            checksum: "ed716342fda8f752b28131333d21701ddab9e91c7156c2e324aa28112438e8e4"
+            checksum: "7d7c5efd1bab5b2e99a42b66e78698fb96efd14efca5ea39719f8844066424a1"
         ),
         .binaryTarget(
             name: "UCFBridge_Wxc",
             url: "\(base)/WebexSDK-Wxc-UCFBridge.xcframework.zip",
-            checksum: "0d575cd01f839e5ef6a2cd4c3613266f6d8dbd8ec83e6d2e5a0914e87a1ed08e"
+            checksum: "681135fdc9a35760a6d885cebff9f01d5f87667bd26f0b2737351d9609c14b86"
         ),
 
         // ---------- Message ----------
         .binaryTarget(
             name: "WebexSDK_Message",
             url: "\(base)/WebexSDK-Message-WebexSDK.xcframework.zip",
-            checksum: "13fb33b07814b72b48a1a2ceac765631f8608f240aceacb94d2293e29bd185ec"
+            checksum: "4052cefcbf70604b02c588ede2446e111c4f138f68227256bd234f04dae5fa2c"
         ),
         .binaryTarget(
             name: "UCFBridge_Message",
             url: "\(base)/WebexSDK-Message-UCFBridge.xcframework.zip",
-            checksum: "992ad4e9ce2550523dbbb923915719724cb71c4ac40c3b5fde9e0ec379ab59b5"
+            checksum: "599ae7b6c864652942dc7aad8ac79865ec9692ec4f40363d49903fe1d4a65a42"
         ),
     ]
 )

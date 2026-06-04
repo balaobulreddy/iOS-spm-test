@@ -24,7 +24,7 @@
 
 import PackageDescription
 
-let version = "3.17.0"
+let version = "3.16.3"
 let base = "https://github.com/webex/webex-ios-sdk/releases/download/\(version)"
 
 let package = Package(
